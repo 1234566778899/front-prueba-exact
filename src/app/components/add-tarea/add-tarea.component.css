@@ -1,0 +1,43 @@
+.lista {
+    border-radius: 5px;
+    height: 590px;
+    overflow-y: auto;
+}
+
+.tarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(239, 239, 239);
+    padding: 12px 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    transition: filter 0.5s;
+}
+
+.tarea:hover {
+    filter: brightness(80%);
+}
+
+.icon:hover {
+    filter: brightness(200%);
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    background-color: rgb(100, 102, 99);
+    color: white;
+    outline: none;
+    border-radius: 5px;
+}
+input::placeholder {
+    color: rgb(172, 169, 169);
+  }
+
+.finalizado {
+    background-color: rgb(138, 223, 142);
+    text-decoration: line-through;
+}
